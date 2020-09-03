@@ -12,7 +12,7 @@
     
     
     
-    <title>测试文章1 | 时代的过客</title>
+    <title>Markdown用法实例 | 时代的过客</title>
     <link href="https://lositer.github.io" rel="prefetch" />
 
     
@@ -128,7 +128,11 @@
                         
                         
                         <li>
-                            <a href="/categories/Hexo/">Hexo</a>
+                            <a href="/categories/Anime/">Anime</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/Skills/">Skills</a>
                         </li>
                         
                         
@@ -154,7 +158,7 @@
                         </li>
                         
                         <li>
-                            <a href="/tags/tags/">tags</a>
+                            <a href="/tags/%E7%94%A8%E6%B3%95/">用法</a>
                         </li>
                         
                         
@@ -186,13 +190,13 @@
         <i class="fa fa-home"></i>
         <a href="https://lositer.github.io">时代的过客</a>
         >
-        <span>测试文章1</span>
+        <span>Markdown用法实例</span>
     </div>
     <!-- 大型设备详细文章 -->
     <div class="hidden-xs">
         <div class="title-article">
             <h1>
-                <a href="/2020/09/03/text1/">测试文章1</a>
+                <a href="/2020/09/03/Markdown%E7%94%A8%E6%B3%95%E5%AE%9E%E4%BE%8B/">Markdown用法实例</a>
             </h1>
         </div>
         <div class="tag-article">
@@ -200,7 +204,7 @@
             <span class="label label-gal">
                 <i class="fa fa-tags"></i>
                 
-                <a href="/tags/tags/">tags</a>
+                <a href="/tags/%E7%94%A8%E6%B3%95/">用法</a>
                 
             </span>
             
@@ -215,7 +219,7 @@
         <center>
             <div class="title-article">
                 <h4>
-                    <a href="/2020/09/03/text1/">测试文章1</a>
+                    <a href="/2020/09/03/Markdown%E7%94%A8%E6%B3%95%E5%AE%9E%E4%BE%8B/">Markdown用法实例</a>
                 </h4>
             </div>
             <p>
@@ -225,7 +229,7 @@
                 
                 <i class="fa fa-tags"></i>
                 
-                <a href="/tags/tags/">tags</a>
+                <a href="/tags/%E7%94%A8%E6%B3%95/">用法</a>
                 
                 
                 
@@ -233,7 +237,69 @@
         </center>
     </div>
     <div class="content-article">
-        
+        <h1 id="欢迎使用马克飞象"><a href="#欢迎使用马克飞象" class="headerlink" title="欢迎使用马克飞象"></a>欢迎使用马克飞象</h1><p>@(示例笔记本)[马克飞象|帮助|Markdown]<br><strong>_config.yml</strong><br><strong>_config.yml</strong></p>
+<p><strong>功能丰富</strong> ：支持高亮代码块、<em>LaTeX</em> 公式、流程图，本地图片以及附件上传，甚至截图粘贴，工作学习好帮手；</p>
+<ul>
+<li><strong>得心应手</strong> ：简洁高效的编辑器，提供<a target="_blank" rel="noopener" href="http://maxiang.info/client_zh">桌面客户端</a>以及<a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/kidnkfckhbdkfgbicccmdggmpgogehop">离线Chrome App</a>，支持移动端 Web；</li>
+</ul>
+<hr>
+<h2 id="Markdown简介"><a href="#Markdown简介" class="headerlink" title="Markdown简介"></a>Markdown简介</h2><blockquote>
+<p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。    —— <a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/Markdown">维基百科</a></p>
+</blockquote>
+<p>正如您在阅读的这份文档，它使用简单的符号标识不同的标题，将某些文字标记为<strong>粗体</strong>或者<em>斜体</em>，创建一个<a target="_blank" rel="noopener" href="http://www.example.com/">链接</a>或一个脚注[^demo]。下面列举了几个高级功能，更多语法请按<code>Ctrl + /</code>查看帮助。 </p>
+<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span>(<span class="params">param1=<span class="string">&#x27;&#x27;</span>, param2=<span class="number">0</span></span>):</span></span><br><span class="line">    <span class="string">&#x27;&#x27;&#x27;A docstring&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="keyword">print</span> <span class="string">&#x27;Greater&#x27;</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span>) <span class="keyword">or</span> <span class="literal">None</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">&#x27;&#x27;&#x27;interpreter</span></span><br><span class="line"><span class="string"><span class="meta">... </span>prompt&#x27;&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p><strong>提示：</strong>想了解更多，请查看<strong>流程图</strong><a target="_blank" rel="noopener" href="http://adrai.github.io/flowchart.js/">语法</a>以及<strong>时序图</strong><a target="_blank" rel="noopener" href="http://bramp.github.io/js-sequence-diagrams/">语法</a>。</p>
+</blockquote>
+<h3 id="复选框"><a href="#复选框" class="headerlink" title="复选框"></a>复选框</h3><p>使用 <code>- [ ]</code> 和 <code>- [x]</code> 语法可以创建复选框，实现 todo-list 等功能。例如：</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 已完成事项</li>
+<li><input disabled="" type="checkbox"> 待办事项1</li>
+<li><input disabled="" type="checkbox"> 待办事项2</li>
+</ul>
+<blockquote>
+<p><strong>注意：</strong>目前支持尚不完全，在印象笔记中勾选复选框是无效、不能同步的，所以必须在<strong>马克飞象</strong>中修改 Markdown 原文才可生效。下个版本将会全面支持。</p>
+</blockquote>
+<h2 id="编辑器相关"><a href="#编辑器相关" class="headerlink" title="编辑器相关"></a>编辑器相关</h2><h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><p>右侧系统菜单（快捷键<code>Ctrl + M</code>）的<code>设置</code>中，提供了界面字体、字号、自定义CSS、vim/emacs 键盘模式等高级选项。</p>
+<h3 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h3><p>帮助    <code>Ctrl + /</code><br>同步文档    <code>Ctrl + S</code><br>创建文档    <code>Ctrl + Alt + N</code><br>最大化编辑器    <code>Ctrl + Enter</code><br>预览文档 <code>Ctrl + Alt + Enter</code><br>文档管理    <code>Ctrl + O</code><br>系统菜单    <code>Ctrl + M</code> </p>
+<p>加粗    <code>Ctrl + B</code><br>插入图片    <code>Ctrl + G</code><br>插入链接    <code>Ctrl + L</code><br>提升标题    <code>Ctrl + H</code></p>
+<h2 id="关于收费"><a href="#关于收费" class="headerlink" title="关于收费"></a>关于收费</h2><p><strong>马克飞象</strong>为新用户提供 10 天的试用期，试用期过后需要<a href="maxiang.info/vip.html">续费</a>才能继续使用。未购买或者未及时续费，将不能同步新的笔记。之前保存过的笔记依然可以编辑。</p>
+<h2 id="反馈与建议"><a href="#反馈与建议" class="headerlink" title="反馈与建议"></a>反馈与建议</h2><ul>
+<li>微博：<a target="_blank" rel="noopener" href="http://weibo.com/u/2788354117">@马克飞象</a>，<a target="_blank" rel="noopener" href="http://weibo.com/ggock" title="开发者个人账号">@GGock</a></li>
+<li>邮箱：<a href="mailto:&#104;&#117;&#115;&#x74;&#103;&#x6f;&#x63;&#x6b;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#104;&#117;&#115;&#x74;&#103;&#x6f;&#x63;&#x6b;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>学号</th>
+<th>姓名</th>
+<th>分数</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>小明</td>
+<td>男</td>
+<td>75</td>
+</tr>
+<tr>
+<td>小红</td>
+<td>女</td>
+<td>79</td>
+</tr>
+<tr>
+<td>小陆</td>
+<td>男</td>
+<td>92</td>
+</tr>
+<tr>
+<td>小陆</td>
+<td>男</td>
+<td>92</td>
+</tr>
+</tbody></table>
+<hr>
+
     </div>
 </article>
 
@@ -295,13 +361,13 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2020/09/03/text1/">测试文章1</a>
+                    <a href="/2020/09/04/hello-world/">Hello World</a>
                 </span>
             </li>
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2020/09/03/hello-world/">Hello World</a>
+                    <a href="/2020/09/03/Markdown%E7%94%A8%E6%B3%95%E5%AE%9E%E4%BE%8B/">Markdown用法实例</a>
                 </span>
             </li>
             
@@ -323,13 +389,13 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2020/09/03/hello-world/">Hello World</a>
+                    <a href="/2020/09/04/hello-world/">Hello World</a>
                 </span>
             </li>
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2020/09/03/text1/">测试文章1</a>
+                    <a href="/2020/09/03/Markdown%E7%94%A8%E6%B3%95%E5%AE%9E%E4%BE%8B/">Markdown用法实例</a>
                 </span>
             </li>
             
@@ -344,17 +410,17 @@
 
                 
                 <li>
-                    <a href="/2020/09/03/text1/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
+                    <a href="/2020/09/03/Markdown%E7%94%A8%E6%B3%95%E5%AE%9E%E4%BE%8B/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
                 </li>
                 
                 
                 <li>
-                    <a href="/2020/09/03/text1/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
+                    <a href="/2020/09/03/Markdown%E7%94%A8%E6%B3%95%E5%AE%9E%E4%BE%8B/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
                 </li>
                 
                 
                 <li>
-                    <a href="/2020/09/03/text1/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
+                    <a href="/2020/09/03/Markdown%E7%94%A8%E6%B3%95%E5%AE%9E%E4%BE%8B/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
                 </li>
                 
             </ul>
@@ -362,9 +428,9 @@
                 
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
     
-    <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 17.706381173638647px;" class="tag-cloud-link">博客</a>
+    <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 8.801188801614352px;" class="tag-cloud-link">博客</a>
     
-    <a href="/tags/tags/" style="font-size: 18.24817664810017px;" class="tag-cloud-link">tags</a>
+    <a href="/tags/%E7%94%A8%E6%B3%95/" style="font-size: 10.097197576062943px;" class="tag-cloud-link">用法</a>
     
 </div>
                 
@@ -389,15 +455,19 @@
                 <div class="links tab-pane nav bs-sidenav fade" id="sidebar-links">
     
     <li>
-        <a href="https://github.com/ZEROKISEKI/" target="_blank">Github</a>
+        <a href="https://github.com/lositer" target="_blank">Github</a>
     </li>
     
     <li>
-        <a href="https://coding.net/u/SORA1" target="_blank">Coding</a>
+        <a href="http://bgm.tv/user/lositer" target="_blank">Bangumi</a>
     </li>
     
     <li>
-        <a href="https://www.zhihu.com/people/aonosora/activities" target="_blank">知乎</a>
+        <a href="https://osu.ppy.sh/users/12696033" target="_blank">OSU！</a>
+    </li>
+    
+    <li>
+        <a href="https://space.bilibili.com/4325282" target="_blank">BiliBili</a>
     </li>
     
 </div>
@@ -467,7 +537,7 @@
     window.slideConfig = {
       prefix: '/imgs/slide/background',
       ext: 'jpg',
-      maxCount: '6'
+      maxCount: '8'
     }
 </script>
 
